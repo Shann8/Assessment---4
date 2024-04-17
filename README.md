@@ -1,6 +1,6 @@
 ![image](https://github.com/Shann8/Assessment---4/assets/160914547/f26ec6aa-f8f3-492b-bf4f-7947a6340933)
 
-
+This is a react app project what takes city or place name as input and gives the temperature and weather condition. Also it signifies whether the temperature is suitable or not by changing the background image and giving a visual effect.
 
 
 # Getting Started with Create React App
