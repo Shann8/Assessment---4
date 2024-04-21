@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Assessment---4/static/css/main.caad0c3c.css",
-    "main.js": "/Assessment---4/static/js/main.ae4437ea.js",
-    "static/media/winter.jpg": "/Assessment---4/static/media/winter.3f24563a6e90f03446db.jpg",
-    "static/media/summer.jpg": "/Assessment---4/static/media/summer.3239c5944a36c22c1a7c.jpg",
-    "static/media/warm-bg.jpg": "/Assessment---4/static/media/warm-bg.a7f83012aa30f33e19ee.jpg",
-    "index.html": "/Assessment---4/index.html",
-    "main.caad0c3c.css.map": "/Assessment---4/static/css/main.caad0c3c.css.map",
-    "main.ae4437ea.js.map": "/Assessment---4/static/js/main.ae4437ea.js.map"
+    "main.css": "/Shann8/Assessment---4/static/css/main.a591d6c2.css",
+    "main.js": "/Shann8/Assessment---4/static/js/main.ae4437ea.js",
+    "static/media/winter.jpg": "/Shann8/Assessment---4/static/media/winter.3f24563a6e90f03446db.jpg",
+    "static/media/summer.jpg": "/Shann8/Assessment---4/static/media/summer.3239c5944a36c22c1a7c.jpg",
+    "static/media/warm-bg.jpg": "/Shann8/Assessment---4/static/media/warm-bg.a7f83012aa30f33e19ee.jpg",
+    "index.html": "/Shann8/Assessment---4/index.html",
+    "main.a591d6c2.css.map": "/Shann8/Assessment---4/static/css/main.a591d6c2.css.map",
+    "main.ae4437ea.js.map": "/Shann8/Assessment---4/static/js/main.ae4437ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.caad0c3c.css",
+    "static/css/main.a591d6c2.css",
     "static/js/main.ae4437ea.js"
   ]
 }
