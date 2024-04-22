@@ -33,7 +33,7 @@ function App() {
 
     return `${day} ${date} ${month} ${year}`
   }
- 
+
   const updateTime = () => {
     const now = new Date();
     const hours = now.getHours();
@@ -51,7 +51,7 @@ function App() {
     const intervalID = setInterval(updateTime, 1000);
     return () => clearInterval(intervalID);
   }, []);
-  
+
 
 
   return (
@@ -59,7 +59,7 @@ function App() {
       <div className='Iphonescreen'>
         <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app cold') : 'app'}>
           <main>
-          <div className="time">{time}</div>
+            <div className="time">{time}</div>
             <div className="search-box">
               <input
                 type="text"
@@ -69,9 +69,10 @@ function App() {
                 value={query}
                 onKeyPress={search}
               />
+              <div className='homeline'></div>
             </div>
             {(typeof weather.main != "undefined") ? (
-              <div>
+              <div className="outer">
                 <div className="location-box">
                   <div className="location">{weather.name}, {weather.sys.country}</div>
                   <div className="date">{dateBuilder(new Date())}</div>
@@ -82,9 +83,9 @@ function App() {
                   </div>
                   <div className="weather">{weather.weather[0].main}</div>
                 </div>
+                <div className='homeline'></div>
               </div>
             ) : ('')}
-            <div className='homeline'></div>
           </main>
         </div>
       </div>
